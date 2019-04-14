@@ -16,6 +16,11 @@ class App extends Component {
             new MM.Location(37.81153, -122.2666097),
             'Broadway and Grand'
         );
+        f = new MM.Follower(
+            map,
+            new MM.Location(37.80508, -122.27307),
+            'Oakland'
+        );
         map.setCenterZoom(new MM.Location(37.81153, -122.2666097), 14);
     }
 
