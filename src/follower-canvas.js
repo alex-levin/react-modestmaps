@@ -17,7 +17,7 @@ const MMFollower = function(MM) {
 
         this.offset = new MM.Point(0, 0);
         // this.dimensions = new MM.Point(150, 150);
-        this.dimensions = new MM.Point(150, 150);
+        this.dimensions = new MM.Point(100, 100);
         this.margin = new MM.Point(10, 10);
         this.offset = new MM.Point(0, -this.dimensions.y);
 
